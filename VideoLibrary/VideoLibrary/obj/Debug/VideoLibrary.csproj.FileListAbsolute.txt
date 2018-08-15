@@ -120,3 +120,11 @@ D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj
 D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.csproj.CopyComplete
 D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.dll
 D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.pdb
+D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.InitialModel.resources
+D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.csproj.GenerateResource.cache
+D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.Add_IsSubscribedToNewsLetter.resources
+D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.AddMembershipType.resources
+D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.PopulateMembershipTypes.resources
+D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.ApplyDataAnnotationsToCustomerName.resources
+D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.AddNameToMembershipType.resources
+D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.SetNameOfMembershipTypes.resources
