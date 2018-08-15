@@ -131,3 +131,6 @@ D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj
 D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.AddBirthDateToCustomer.resources
 D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.AddBirthdateToCustomers.resources
 D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.ApplyAnnotationsToMembershipType.resources
+D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.AddMovie.resources
+D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.InsertDataIntoGenres.resources
+D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.ApplyDataAnnotationsOnGenreAndMovieTables.resources

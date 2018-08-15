@@ -243,9 +243,22 @@
     <Compile Include="Migrations\201808151104271_ApplyAnnotationsToMembershipType.Designer.cs">
       <DependentUpon>201808151104271_ApplyAnnotationsToMembershipType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808151335340_AddMovie.cs" />
+    <Compile Include="Migrations\201808151335340_AddMovie.Designer.cs">
+      <DependentUpon>201808151335340_AddMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808151341595_InsertDataIntoGenres.cs" />
+    <Compile Include="Migrations\201808151341595_InsertDataIntoGenres.Designer.cs">
+      <DependentUpon>201808151341595_InsertDataIntoGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808151346364_ApplyDataAnnotationsOnGenreAndMovieTables.cs" />
+    <Compile Include="Migrations\201808151346364_ApplyDataAnnotationsOnGenreAndMovieTables.Designer.cs">
+      <DependentUpon>201808151346364_ApplyDataAnnotationsOnGenreAndMovieTables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -253,6 +266,7 @@
     <Compile Include="Models\Rental.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\NewCustomerViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-lumen.css" />
@@ -319,6 +333,8 @@
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
+    <Content Include="Views\Customers\CustomerForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -366,6 +382,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808151104271_ApplyAnnotationsToMembershipType.resx">
       <DependentUpon>201808151104271_ApplyAnnotationsToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808151335340_AddMovie.resx">
+      <DependentUpon>201808151335340_AddMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808151341595_InsertDataIntoGenres.resx">
+      <DependentUpon>201808151341595_InsertDataIntoGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808151346364_ApplyDataAnnotationsOnGenreAndMovieTables.resx">
+      <DependentUpon>201808151346364_ApplyDataAnnotationsOnGenreAndMovieTables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
