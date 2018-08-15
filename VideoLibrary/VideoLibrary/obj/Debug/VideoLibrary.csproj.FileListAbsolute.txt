@@ -128,3 +128,6 @@ D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj
 D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.ApplyDataAnnotationsToCustomerName.resources
 D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.AddNameToMembershipType.resources
 D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.SetNameOfMembershipTypes.resources
+D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.AddBirthDateToCustomer.resources
+D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.AddBirthdateToCustomers.resources
+D:\Study\web\asp.net MVC\VideoLibrary\VideoLibrary\VideoLibrary\VideoLibrary\obj\Debug\VideoLibrary.Migrations.ApplyAnnotationsToMembershipType.resources
