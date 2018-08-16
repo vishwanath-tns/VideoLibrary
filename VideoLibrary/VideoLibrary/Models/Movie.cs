@@ -16,6 +16,9 @@ namespace VideoLibrary.Models
 
         
         public Genre Genre { get; set; }
+
+        [Display(Name = "Genre")]
+        [Required]
         public byte GenreId { get; set; }
 
         public DateTime DateAdded { get; set; }
@@ -24,7 +27,7 @@ namespace VideoLibrary.Models
         public DateTime ReleaseDate { get; set; }
 
         [Display(Name = "Number in Stock")]
-        [Range(1, 20)]
+        [Range(1, 30)]
         public byte NumberInStock { get; set; }
 
         public byte NumberAvailable { get; set; }

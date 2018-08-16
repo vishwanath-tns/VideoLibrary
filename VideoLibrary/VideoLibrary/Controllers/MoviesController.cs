@@ -78,16 +78,26 @@ namespace VideoLibrary.Controllers
             {
                 movie.DateAdded = DateTime.Now;
                 _context.Movies.Add(movie);
+                _context.SaveChanges();
             }
             else
             {
-                var movieInDb = _context.Movies.Single(m => m.Id == movie.Id);
-                movieInDb.Name = movie.Name;
-                movieInDb.GenreId = movie.GenreId;
-                movieInDb.NumberInStock = movie.NumberInStock;
-                movieInDb.ReleaseDate = movie.ReleaseDate;
+                try
+                {
+                    var movieInDb = _context.Movies.Single(m => m.Id == movie.Id);
+                    movieInDb.Name = movie.Name;
+                    movieInDb.GenreId = movie.GenreId;
+                    movieInDb.NumberInStock = movie.NumberInStock;
+                    movieInDb.ReleaseDate = movie.ReleaseDate;
+                    _context.SaveChanges();
+                }
+                catch(Exception exp)
+                {
+                    Console.WriteLine(exp.Message);
+                }
+                
             }
-            _context.SaveChanges();
+            
             return RedirectToAction("Index", "Movies");
         }
     }

@@ -45,14 +45,27 @@ namespace VideoLibrary.Controllers
             var membershipTypes = _context.MembershipTypes.ToList();
             var ViewModel = new NewCustomerViewModel
             {
+                Customer = new Customer(),
                 MembershipTypes = membershipTypes
             };
             return View("CustomerForm",ViewModel);
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Customer customer)
         {
+            if(!ModelState.IsValid)
+            {
+                var membershipTypes = _context.MembershipTypes.ToList();
+                var ViewModel = new NewCustomerViewModel
+                {
+                    Customer = customer,
+                    MembershipTypes = membershipTypes
+                };
+                return View("CustomerForm", ViewModel);
+            }
+
             if(customer.Id == 0)
             {
                 _context.Customers.Add(customer);
